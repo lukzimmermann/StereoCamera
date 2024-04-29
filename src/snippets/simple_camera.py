@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 import time
 
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(2)
 cv.namedWindow("frame", cv.WND_PROP_FULLSCREEN)
 time_list = []
 
